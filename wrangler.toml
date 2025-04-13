@@ -1,22 +1,24 @@
-name = "siren"
+name = "gardevoir"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
 workers_dev = true
 
 routes = [
-  { pattern = "inconigto-mode.web.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.inconigto-mode.web.id", custom_domain = true },
-  { pattern = "df.game.naver.com.inconigto-mode.web.id", custom_domain = true },
-  { pattern = "graph.instagram.com.inconigto-mode.web.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.inconigto-mode.web.id", custom_domain = true },
-  { pattern = "support.zoom.us.inconigto-mode.web.id", custom_domain = true },  
-  { pattern = "cache.netflix.com.inconigto-mode.web.id", custom_domain = true },
+  { pattern = "gardevoir.bluehat358.biz.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.gardevoir.bluehat358.biz.id", custom_domain = true },
+  { pattern = "df.game.naver.com.gardevoir.bluehat358.biz.id", custom_domain = true },
+  { pattern = "graph.instagram.com.gardevoir.bluehat358.biz.id", custom_domain = true },
+  { pattern = "zaintest.vuclip.com.gardevoir.bluehat358.biz.id", custom_domain = true },
+  { pattern = "support.zoom.us.gardevoir.bluehat358.biz.id", custom_domain = true },  
+  { pattern = "cache.netflix.com.gardevoir.bluehat358.biz.id", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.gardevoir.bluehat358.biz.id", custom_domain = true },
+  { pattern = "img.email1.vidio.com.gardevoir.bluehat358.biz.id", custom_domain = true },
 ]
 
 [[kv_namespaces]]
-binding = "SIREN"
-id = "f7a1c12a83d349bb8e8868e7d524ac4c"
+binding = "GARDEVOIR"
+id = "85d1a55fa18a4cfcbedc1a65bcd4ad47"
 [build]
 command = "cargo install -q worker-build && worker-build --release"
 
@@ -24,7 +26,7 @@ command = "cargo install -q worker-build && worker-build --release"
 build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
-UUID = "bbbbbbbb-cccc-4ddd-eeee-ffffffffffff"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/InconigtoMode/inconigto-vpn/refs/heads/master/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/InconigtoMode/inconigto-vpn/refs/heads/master/web/sub.html"
-LINK_PAGE_URL = "https://raw.githubusercontent.com/InconigtoMode/inconigto-vpn/refs/heads/master/web/link.html"
+UUID = "85dba49f-78a8-4050-a8f0-2185134fa358"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/BlueHat358/BlueHat358-Gardevoir/refs/heads/master/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/BlueHat358/BlueHat358-Gardevoir/refs/heads/master/web/sub.html"
+LINK_PAGE_URL = "https://raw.githubusercontent.com/BlueHat358/BlueHat358-Gardevoir/refs/heads/master/web/link.html"

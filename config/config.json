@@ -26,7 +26,7 @@
       "tag": "proxy-b",
       "server": "127.0.0.1",
       "server_port": 8787,
-      "uuid": "f282b878-8711-45a1-8c69-5564172123c1",
+      "uuid": "85dba49f-78a8-4050-a8f0-2185134fa358",
       "security": "none",
       "transport": {
         "type": "ws",
